@@ -8,6 +8,8 @@ pip install opencv-python==4.5.1.48
 pip install matplotlib==3.3.3
 pip install PyQt5==5.15.2
 
+4.把打包的ckpt文件夹解压到根目录中
+
 3.输入以下命令启动
 conda activate pytorch
 python demo_emotion.py
