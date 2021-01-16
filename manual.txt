@@ -1,0 +1,13 @@
+1.下载并安装以下程序包
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-2020.11-MacOSX-x86_64.pkg
+
+2.输入以下命令配置安装环境
+conda create -n pytorch python=3.8
+conda install pytorch==1.4.0 torchvision==0.5.0 -c pytorch
+pip install opencv-python==4.5.1.48
+pip install matplotlib==3.3.3
+pip install PyQt5==5.15.2
+
+3.输入以下命令启动
+conda activate pytorch
+python demo_emotion.py
